@@ -1,0 +1,10 @@
+*.md
+*.yaml
+*.yml
+*.json
+gradle/
+.gradle/
+build/
+tests/
+extensions/
+launchers/

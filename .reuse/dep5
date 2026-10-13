@@ -1,0 +1,26 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: openaiflex-mvd-oaf
+Upstream-Contact: pranav.jayant.kulkarni@fit.fraunhofer.de
+Source: https://github.com/openaiflex/mvd-oaf
+Comment: Fork of eclipse-dataspace-hub/MinimumViableDataspace. Upstream copyright
+ holders include Metaform Systems, Microsoft Corporation, and other Eclipse
+ Dataspace Components contributors. OpenAIFlex adds launcher-specific
+ configuration, deploy manifests, and documentation. Whole repo under Apache-2.0
+ to match upstream and avoid licence-mixing complexity.
+
+Files: *
+Copyright: Eclipse Dataspace Components authors
+License: Apache-2.0
+
+Files: openaiflex/*
+       deploy/openaiflex/*
+       docs/openaiflex/*
+       .github/*
+       .reuse/*
+       LICENSES/*
+       .markdownlint.json
+       .yamllint
+       .prettierignore
+       remotes.md
+Copyright: 2026 Fraunhofer FIT and the OpenAIFlex consortium
+License: Apache-2.0

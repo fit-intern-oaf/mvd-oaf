@@ -1,0 +1,4 @@
+# Upstream MVD markdown files — we don't own their formatting.
+# OpenAIFlex-added markdown (remotes.md, docs/openaiflex/**, etc.) remains linted.
+README.md
+Requests/
