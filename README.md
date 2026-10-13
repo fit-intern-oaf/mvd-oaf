@@ -1,6 +1,6 @@
 # Minimum Viable Dataspace Demo
 
-<!-- TOC -->
+<!-- TOC ---->
 
 * [Minimum Viable Dataspace Demo](#minimum-viable-dataspace-demo)
     * [1. Introduction](#1-introduction)
