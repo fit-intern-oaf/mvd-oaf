@@ -12,7 +12,19 @@ rules:
   indentation:
     spaces: 2
     indent-sequences: consistent
+# Ignore everything we don't own. Our YAMLs live under .github/workflows/
+# and are explicitly re-included below.
 ignore: |
   gradle/
   .gradle/
   build/
+  k8s/
+  .github/dependabot.yml
+  .github/actions/
+  values.yaml
+  kind-config.yaml
+  launchers/
+  extensions/
+  tests/
+  config/
+  Requests/
